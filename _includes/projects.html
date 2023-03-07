@@ -1,3 +1,9 @@
+<!-- 1. Add images to project previews -->
+
+<!-- 2. Increase card size and display more project information -->
+
+<!-- 3. Improve project page navigation -->
+
 <h2>Projects</h2>
 <div class="card-container">
     {% for item in site.data.projects %}
@@ -6,13 +12,14 @@
     {% else %}
     <a>
     {% endif %}
-      <div class="card">
-        <div class="info">
-          <p class="title">{{ item.title }}</p>
-          <p class="location">{{ item.event }}</p>
-          <p class="dates">{{ item.date }}</p>
-        </div>
+    <div class="card">
+      <div class="image-container"><img src="{{ item.preview-image }}" alt="{{ item.title }} preview"></div>
+      <div class="info">
+        <p class="title">{{ item.title }}</p>
+        <p class="location">{{ item.event }}</p>
+        <p class="dates">{{ item.date }}</p>
       </div>
+    </div>
     </a>
     {% endfor %}
   </div>
