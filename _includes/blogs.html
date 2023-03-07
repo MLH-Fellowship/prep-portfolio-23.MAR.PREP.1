@@ -1,0 +1,18 @@
+<h2>Blog Posts</h2>
+<div class="card-container">
+    {% for item in site.data.blogs %}
+    {% if item.title %}
+    <a href="/projects/project">
+    {% else %}
+    <a>
+    {% endif %}
+      <div class="card">
+        <div class="info">
+          <p class="title">{{ item.title }}</p>
+          <p class="location">{{ item.publishedBy }}</p>
+        </div>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+  
