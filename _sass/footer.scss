@@ -18,13 +18,18 @@
 }
 
 .social-links {
-    
     margin: 5% 0;
 }
 .social-links a {
     margin: 0 10px;
     color: white;
+    display: inline-block;
+    transition: transform 330ms ease-in-out;
+    &:hover {
+        transform: translate(0px, -10px);
+    }
 }
+
 
 // right div
 .right-div .list{
