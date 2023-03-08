@@ -51,6 +51,20 @@ h2 {
     font-size: 1.2em;
 }
 
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-bottom: 16px;
+  padding-right: 16px;
+ 
+}
+.image-container {
+  width: 150px;
+  height: 150px;
+}
+
+
 a {
     color: black;
 }
@@ -88,3 +102,5 @@ a {
         width: 100%;
     }
 }
+
+
