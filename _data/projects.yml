@@ -1,17 +1,30 @@
+# title: Name of the App
+# event: Where or Why did you make it
+# date: date of creation
+# creator-image: your image
+# project-image: the image of the project, use unsplash for high quality images
+# creator-name: your name :)
+
 - title: Online Shopping App
   event: MLH Prep Pod Project
   date: Fall 2021  - Batch 4.5
+  creator-image: https://avatars.githubusercontent.com/u/63084088?v=4
+  project-image: https://images.unsplash.com/photo-1561715276-a2d087060f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8c2hvcHBpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60
+  creator-name: Sumana Basu
   page-name: project
-  preview-image: /assets/img/online-shopping-app-preview.png
 
 - title: Todo List
   event: MLH Prep Pod Project
   date: Fall 2021  - Batch 4.5
+  creator-image: https://avatars.githubusercontent.com/u/82109991?v=4
+  project-image: https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dG9kb3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60
+  creator-name: Ketan Saraf
   page-name: project
-  preview-image: /assets/img/todo-list.png
 
 - title: iOS App
   event: MLH Prep Pod Project
   date: Fall 2021  - Batch 4.5
+  creator-name: Mukhammad Sadriddinov
+  project-image: https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8aW9zfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60
+  creator-image: https://avatars.githubusercontent.com/u/105518066?v=4
   page-name: project
-  preview-image: /assets/img/ios-app.png
