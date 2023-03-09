@@ -1,11 +1,16 @@
-- title: Introduction to Backend
+- title: Use Cases of Node.js
+  img: node-js.png
   publishedBy: Garvit Varshney
-  # img
+  publisherImg: garvit.jpg
 
-- title: Introduction to Backend
-  publishedBy: Garvit Varshney
+- title: How I got into MLH
+  publishedBy: Tynen Wang
+  img: mlh-blog.png
+  publisherImg: tynen.jpg
 
-- title: Introduction to Backend
-  publishedBy: Garvit Varshney
+- title: Intro to Cyber Security
+  img: cybersecurity.jpg
+  publishedBy: Pradumna Gautam
+  publisherImg: pradumna.jpg
 
 
