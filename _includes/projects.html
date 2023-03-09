@@ -1,4 +1,4 @@
-<h2>Projects</h2>
+<h2 id="projects">Projects</h2>
 <div class="card-container">
     {% for item in site.data.projects %}
     {% if item.page-name %}
@@ -6,13 +6,20 @@
     {% else %}
     <a>
     {% endif %}
-      <div class="card">
-        <div class="info">
-          <p class="title">{{ item.title }}</p>
-          <p class="location">{{ item.event }}</p>
-          <p class="dates">{{ item.date }}</p>
+    <div class="card">
+      <div class="image-container">
+        <img class="project-image" src="{{ item.project-image }}" alt="{{ item.title }} preview">
+      </div>
+      <div class="info">
+        <p class="title">{{ item.title }}</p>
+        <p class="location">{{ item.event }}</p>
+        <p class="dates">{{ item.date }}</p>
+        <div class="creator-container">
+          <img class="creator-image" src="{{item.creator-image}}" />
+          <p class="creator-name">{{ item.creator-name }}</p>
         </div>
       </div>
+    </div>
     </a>
     {% endfor %}
   </div>

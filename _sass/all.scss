@@ -4,6 +4,7 @@
 @import 'profile';
 @import 'page';
 @import 'blogs';
+@import 'footer';
 
 .card-container {
     display: grid;
@@ -32,7 +33,6 @@
 
 body {
     background-color: #f5f5f9;
-    margin-bottom: 50px;
 }
 h2 {
     margin-bottom: 20px;
@@ -43,14 +43,32 @@ h2 {
 
 .card {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
     margin: 20px 30px;
     background-color: white;
     border-radius: .375rem;
     padding: 1.5em;
     font-size: 1.2em;
 }
+
+.project-image {
+  width: 100%;
+  height: auto;
+}
+
+.image-container {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 6px;
+  margin-bottom: 16px;
+}
+
 
 a {
     color: black;
@@ -88,4 +106,26 @@ a {
     img {
         width: 100%;
     }
+}
+
+.creator-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;  
+  margin-top: 20px;
+}
+
+.creator-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+}
+
+.creator-name {
+  font-size: medium;
+  font-weight: 400;
 }
