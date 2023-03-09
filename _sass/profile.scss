@@ -1,29 +1,16 @@
 .profile {
-    //background-color: #133667 !important;
-    background-image: url('https://www.colorhexa.com/133667.png') !important;
+    // image source - https://www.freepik.com/author/wirestock
+    // Free photo 3d rendering abstract background of a futuristic circle tunnel with glowing neon blue lights
+    background-image: url('https://img.freepik.com/free-photo/3d-rendering-abstract-background-futuristic-circle-tunnel-with-glowing-neon-blue-lights_181624-61521.jpg?w=1800&t=st=1678391195~exp=1678391795~hmac=a1b946c4782f03fccb9c55524adb384a958cd6cc0afd73ccb78314e71fc78828') !important;
     background-size: cover;
     background-position: center;
     text-align: center;
-    height: 320px;
+    height: 400px;
     margin-bottom: 50px;
     h1 {
         font-size: 50px;
         font-weight: 700;
         color: white;
-    }
-    
-    img {
-        border-radius: 50%;
-        max-width: 100%;
-        max-height: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        display: inline;        
-        padding: 20px;
-    }
-    
-    .profile-picture {
-        margin-bottom: 30px;
-        height: 200px;
+        padding-top: 200px;
     }
 }
