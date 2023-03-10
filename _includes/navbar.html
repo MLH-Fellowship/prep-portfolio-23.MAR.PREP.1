@@ -1,10 +1,20 @@
 <header class="nav-bar">
     <div class="nav-content">
-        <a href="{{ '/' | relative_url }}">
-            <div class="nav-logo">
+        <div class="left">
+            <a href="{{ '/' | relative_url }}">
+              <div class="nav-logo">
                 <img src="./assets/img/mlh-prep.png" />
-            </div>
-        </a>
-        
-    </div>
+              </div>
+            </a>
+          </div>
+      
+          <div class="right">
+            <a href="#home">Home</a>
+            <a href="#team">Team</a>
+            <a href="#projects">Projects</a>
+            <button class="theme-toggler-btn" id="theme-toggler" type="button">
+              <i id="theme-icon" class="fa"></i>
+            </button>
+          </div>
+        </div>
 </header>
