@@ -2,20 +2,19 @@
   img: ahmed.jpg
   location: Toronto, Canada
   email: ahmedk.mohamed@mail.utoronto.ca
-  linkedIn: 
-  twitter:
+  linkedIn: https://www.linkedin.com/feed/
+  twitter: https://twitter.com
   github: https://github.com/Ahmed-Labs
-  resume: 
+  resume:
 
 - name: Arya Gupta
   img: arya.jpeg
   location: Unknown, India
   email: arya.gupta99999@gmail.com
   linkedIn: https://www.linkedin.com/in/arya-gupta0/
-  twitter: 
+  twitter: https://twitter.com
   github: https://github.com/Arya-Gupta
   resume: https://drive.google.com/file/d/1k-9GYnSCfDLxnVrXAWCRVBMzVh0RBi-J/view?usp=sharing
-
 
 - name: Garvit Varshney
   img: garvit.jpg
@@ -49,9 +48,9 @@
   location: Burnabuy, Canada
   email: hariboengr@gmail.com
   linkedIn: https://www.linkedin.com/in/jenna-l-69b249206/
-  twitter:
+  twitter: https://twitter.com
   github: https://github.com/swimmingHaribo?tab=repositories
-  resume: 
+  resume:
 
 - name: Ketan Saraf
   img: ketan.jpeg
@@ -63,11 +62,11 @@
   resume: https://drive.google.com/file/d/1kdduaUYuvs7TKQYf0SZe5EgVm0NpVcVG/view?usp=sharing
 
 - name: Koichi Minami
-  img: garvit.jpg
+  img: koichi.jpeg
   location: New York, USA
   email: koichidminami@gmail.com
   linkedIn: https://www.linkedin.com/in/koichi-minami/
-  twitter:
+  twitter: https://twitter.com
   github: https://github.com/KoichiMin
   resume: https://media.licdn.com/dms/document/C562DAQHaRYMXFpkrRg/profile-treasury-document-pdf-analyzed/0/1677950090815?e=1679529600&v=beta&t=BefT1PffZYP4r_hlRm5mMC1sr4WTf2farqMIFrJLMdM
 
@@ -76,27 +75,27 @@
   location: Vancouver, Canada
   email: leila.gazizova2003@gmail.com
   linkedIn: https://www.linkedin.com/in/leila-gazizova/
-  twitter:
+  twitter: https://twitter.com
   github: https://github.com/2leila5
-  resume: 
+  resume:
 
 - name: Mukhammad Sadriddinov
   img: mukhammad.png
   location: Tennessee, USA
   email: mukhsadr@gmail.com
   linkedIn: https://www.linkedin.com/in/mukhsadr/
-  twitter:
+  twitter: https://twitter.com
   github: https://github.com/mukhsadr
-  resume: 
+  resume:
 
 - name: Pradumna Gautam
   img: pradumna.jpg
   location: Bulandshahr, India
   email: pgautam8601@gmail.com
   linkedIn: https://www.linkedin.com/in/pradumna/
-  twitter: 
+  twitter: https://twitter.com
   github: https://github.com/pradumna-gautam
-  resume: 
+  resume:
 
 - name: Samyuktha Gopalsamy
   img: samyuktha.jpg
@@ -112,7 +111,7 @@
   location: North Carolina, USA
   email: sanagoyal03@gmail.com
   linkedIn: https://www.linkedin.com/in/sgoyal2/
-  twitter: 
+  twitter: https://twitter.com
   github: https://github.com/sgoyal5
   resume: https://drive.google.com/file/d/1I5WvGGnaKyz28YXvU2wG0287Y5tBUCMh/view?usp=sharing
 
@@ -130,6 +129,6 @@
   location: Toronto, Canada
   email: tynenw@gmail.com
   linkedIn: https://www.linkedin.com/in/tynen-wang/
-  twitter:
+  twitter: https://twitter.com
   github: https://github.com/TynenW
-  resume: 
+  resume:
