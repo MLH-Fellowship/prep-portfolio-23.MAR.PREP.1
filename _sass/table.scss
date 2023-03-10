@@ -4,6 +4,7 @@
     text-align: center;
     margin: 5%;
 }
+
 tr{
     flex-wrap: nowrap;
     display: flex;
@@ -12,6 +13,7 @@ tr{
     gap: 20px;
     border: 1px solid lightgray;
 }
+
 td{
     display: flex;
     justify-content: center;
@@ -20,9 +22,11 @@ td{
     text-align: center;
     flex-wrap: nowrap;
 }
+
 th{
     margin-left: 20px;
 }
+
 .leadership-board {
     background-color: white;
     width: 32%;
@@ -33,6 +37,7 @@ th{
     flex-direction: column;
 
 }
+
 .table-head{
     display: flex;
     justify-content: space-around;
@@ -62,4 +67,22 @@ th{
 
 .fellowRow:hover{
     background-color: lightgray;
+}
+
+@media only screen and (min-width: 1401px) {
+    .leadership-board {
+        width: 32%;
+    }
+}
+
+@media only screen and (min-width: 701px) {
+    .leadership-board {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .leadership-board {
+        width: 80%;
+    }
 }
