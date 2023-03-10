@@ -1,0 +1,65 @@
+.box {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 5%;
+}
+tr{
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    gap: 20px;
+    border: 1px solid lightgray;
+}
+td{
+    display: flex;
+    justify-content: center;
+    width: 170px;
+    padding: 5px;
+    text-align: center;
+    flex-wrap: nowrap;
+}
+th{
+    margin-left: 20px;
+}
+.leadership-board {
+    background-color: white;
+    width: 32%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+.table-head{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    font-size: 1.3rem;
+    border: 2px solid black;
+    background-color: #133667;
+    color: white;
+    height: 60px;
+}
+
+
+.users{
+    margin-left: 30px;
+}
+
+.fellowRow{
+    transition: 0.5s background-color;
+    -webkit-transition: 0.5s background-color;
+    -moz-transition: 0.5s background-color;
+    -ms-transition: 0.5s background-color;
+    -o-transition: 0.5s background-color;
+    height: 50px;
+    font-size: 1.1rem;
+}
+
+.fellowRow:hover{
+    background-color: lightgray;
+}
