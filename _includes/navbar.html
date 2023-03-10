@@ -12,9 +12,26 @@
             <a href="#home">Home</a>
             <a href="#team">Team</a>
             <a href="#projects">Projects</a>
+            <a href="#blogs">Blogs</a>
             <button class="theme-toggler-btn" id="theme-toggler" type="button">
               <i id="theme-icon" class="fa"></i>
             </button>
           </div>
         </div>
 </header>
+<script>
+  const themeToggler = document.getElementById("theme-toggler");
+  themeToggler.addEventListener("click", () => {
+    const currTheme = localStorage.getItem("darkTheme");
+    document.getElementById("theme-icon").classList.toggle("fa-moon");
+    document.getElementById("theme-icon").classList.toggle("fa-sun");
+    if (currTheme){
+        localStorage.removeItem("darkTheme");
+        document.body.classList.remove("dark");
+    } else {
+        localStorage.setItem("darkTheme", "on");
+        document.body.classList.add("dark");
+    }
+
+  });
+</script>

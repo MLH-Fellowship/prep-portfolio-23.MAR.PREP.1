@@ -1,88 +1,122 @@
 .nav-bar {
-    width: 100%;
-    background-color: #133667;
-    font-family: "Poppins", serif;
-    font-weight: 700 !important;
-    padding-top: 10px;
-}
-
-.nav-content .logo-touch-target {
-    display: inline-flex;
-    height: 60%;
-    width: 350px;
-}
-
-.nav-content .nav-logo {
-    height: 60px;
-    margin: auto;
-}
-
-.nav-logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  background-color: #133667;
+  font-family: "Poppins", serif;
+  font-weight: 700 !important;
+  top: 0px;
+  position: sticky;
+  z-index: 100;
 }
 
 .nav-logo img {
-    width: 200px;
+  width: 200px;
 }
 
-.nav-content nav {
-    display: block;
-    width: 100%;
-    text-align: right;
-    padding-top: 0px;
-    padding-right: 0px;
+.nav-content {
+  display: flex;
+  width: 100%;
+  text-align: right;
+  padding: 10px;
 }
 
+.left {
+  display: flex;
+  width: 100%;
 
+  justify-content: start;
+  align-items: start;
 
-.left{ 
-    display: flex;
-    width: 100%;  
-    
-        justify-content: start;
-        align-items: start;
-    
-        a{
-            margin-left: 20px;
-        }
+  a {
+    margin-left: 20px;
+  }
+}
+
+@keyframes example {
+  from {
+    background-color: white;
+    font-size: 17px;
+    border-radius: 7px;
+  }
+  to {
+    background-color: white;
+    font-size: 19px;
+    border-radius: 7px;
+  }
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  justify-content: end;
+  align-items: center;
+
+  a {
+    color: #fff;
+    margin-inline: 25px;
+    font-size: 17px;
+    font-weight: 500;
+    &:hover {
+      animation-name: example;
+      padding: 5px 10px;
+      animation-duration: 0.5s;
+      animation-fill-mode: forwards;
+      text-decoration: none;
+      color: #000;
+      mix-blend-mode: luminosity;
     }
-    
-    @keyframes example {
-        from {background-color: white; font-size: 17px;border-radius: 7px;}
-        to {background-color: white; font-size: 19px;border-radius: 7px;}
-      }
-    
-    .right{
-        display: flex;
-        justify-content: center;
-        align-items: flex-end;
-        width: 100%;
-        justify-content: end;
-        align-items: center;
-        
-    
-        a{
-            color: #fff;
-           margin-inline: 25px;
-           font-size: 17px;
-           font-weight: 500;
-           &:hover {
-           animation-name: example;
-           padding: 5px 10px;
-           animation-duration: 0.5s; 
-           animation-fill-mode: forwards;
-           text-decoration:none;
-           color: #000;
-           mix-blend-mode: luminosity;
-        }
-        }
-    }
-    
-    .nav-content{
-        display: flex;
-    
-        background-color: #0e2c57;
-    }
-    
+  }
+}
+
+.nav-content {
+  display: flex;
+
+  background-color: #0e2c57;
+}
+
+//dark theme
+
+body.dark {
+  background-color: #050d1b !important;
+  h2,
+  p,
+  i {
+    color: white !important;
+  }
+  header,
+  .profile {
+    background-color: #040b16 !important;
+  }
+  div.card {
+    background-color: #0b1f38 !important;
+  }
+  .theme-toggler-btn {
+    background-color: #133667;
+  }
+  .theme-toggler-btn:hover {
+    background-color: #174689;
+  }
+}
+
+.theme-toggler-btn {
+  background-color: #2069cb;
+  border-radius: 10px;
+  border: none;
+  font-size: 25px;
+  padding: 8px 12px;
+  transition-duration: 0.2s;
+}
+
+.theme-toggler-btn:hover {
+  background-color: #1b56a4;
+}
+
+.theme-toggler-btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.fa-moon {
+  color: rgb(116, 192, 252);
+}

@@ -18,4 +18,14 @@
     {% include footer.html %}
 </body>
 
+<script>
+    if (localStorage.getItem("darkTheme")) {
+      document.body.classList.add("dark");
+      document.getElementById("theme-icon").classList.toggle("fa-sun");
+    } else {
+      document.body.classList.remove("dark");
+      document.getElementById("theme-icon").classList.toggle("fa-moon");
+    }
+</script>
+
 </html>
