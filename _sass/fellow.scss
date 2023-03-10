@@ -1,0 +1,29 @@
+.fellow-container {
+    .fellow-img-cont {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .fellow-img {
+            height: 370px;
+            width: 370px;
+        }
+    }
+
+@media only screen and (max-width: 768px){
+    .fellow-container {
+            flex-direction: column;
+            align-items: center;
+
+            .fellow-img {
+                width: auto;
+            }
+
+            .fellow-info-container {
+                max-width: initial;
+            }
+        }
+}

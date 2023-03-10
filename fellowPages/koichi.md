@@ -5,4 +5,5 @@ university: xx
 programming-languages:Javascript, React, NodeJs
 description: xxxx_
 interests: Sports, Food
+img: logo.jpg
 ---
