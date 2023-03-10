@@ -1,10 +1,30 @@
 <h2 id="description">Meet the Pod</h2>
-<div class="card-container">
+<div class="card-container fellow-card">
   {% for item in site.data.fellows %}
   <div class="card">
     <div class="info">
+      <div class="fellow-img-container">
+        <img
+          src="../assets/img/fellows/{{item.img}}"
+          alt="fellow-image"
+          class="fellow-img"
+        />
+      </div>
       <p class="title">{{ item.name }}</p>
       <p class="location">{{ item.location }}</p>
+      <div class="email-container">
+        <h5>{{item.email}}</h5>
+      </div>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/school/mlh-fellowship/" class="fellow-link" target="_blank"
+          ><i class="fab fa-linkedin fa-lg"></i
+        ></a>
+        <a
+          href="https://twitter.com/MLHacks?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+          class="fellow-link" target="_blank"
+          ><i class="fab fa-twitter fa-lg"></i
+        ></a>
+      </div>
     </div>
   </div>
   {% endfor %}
