@@ -2,41 +2,36 @@
 layout: page
 ---
 
+<br />
+<div class="fellow-container row">
+  <div class="fellow-img-cont col-md-5">
+    <img class="fellow-img" src="../assets/img/{{ page.img }}" />
+  </div>
 
-<br>
-<div class="fellow-container">
-<div class="fellow-img-cont">
-    <img class="fellow-img"  src="../assets/img/{{ page.img }}">
-
+  <div class="fellow-data col-md-7">
+    <div class="fellow-info">
+      <span class="fellow-info-key"><b>University :</b></span>
+      <span class=""> {{ page.university }} </span>
+    </div>
+    <br />
+    <div class="fellow-info">
+      <span class="fellow-info-key"
+        ><b>Favourite Programming Languages :</b></span
+      >
+      <span class=""> {{ page.programming-languages }} </span>
+    </div>
+    <br />
+    <div class="fellow-info">
+      <span class="fellow-info-key"> <b>Description:</b></span>
+      <span class=""> {{ page.description }} </span>
+    </div>
+    <br />
+    <div class="fellow-info">
+      <span class="fellow-info-key"
+        ><b>Interests outside of technology:</b></span
+      >
+      <span class=""> {{ page.interests }} </span>
+    </div>
+  </div>
 </div>
-
-<div class="fellow-info">
-    <span class="fellow-info-key"><b>University :</b></span>
-    <span class="">
-                {{ page.university }}
-            </span>
-</div>
-<br>
-<div class="fellow-info">
-    <span class="fellow-info-key"><b>Favourite Programming Languages  :</b></span>
-    <span class="">
-                {{ page.programming-languages }}
-            </span>
-</div>
-<br>
-<div class="fellow-info">
-    <span class="fellow-info-key"> <b>Description:</b></span>
-    <span class="">
-                    {{ page.description }}
-                </span>
-</div>
-<br>
-<div class="fellow-info">
-    <span class="fellow-info-key"><b>Interests outside of technology:</b></span>
-    <span class="">
-            {{ page.interests }}
-        </span>
-</div>
-</div>
-<br>
-
+<br />
