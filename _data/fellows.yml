@@ -9,7 +9,7 @@
 
 - name: Arya Gupta
   img: arya.jpeg
-  location: Unknown, India
+  location: Kolkata, India
   email: arya.gupta99999@gmail.com
   linkedIn: https://www.linkedin.com/in/arya-gupta0/
   twitter: https://twitter.com
@@ -90,12 +90,12 @@
 
 - name: Pradumna Gautam
   img: pradumna.jpg
-  location: Bulandshahr, India
+  location: New York, USA
   email: pgautam8601@gmail.com
   linkedIn: https://www.linkedin.com/in/pradumna/
   twitter: https://twitter.com
   github: https://github.com/pradumna-gautam
-  resume:
+  resume: https://drive.google.com/file/d/1tE_VBxtug6AAI5JvDhRsG6JwUam3g74B/view
 
 - name: Samyuktha Gopalsamy
   img: samyuktha.jpg

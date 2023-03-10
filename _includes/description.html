@@ -4,11 +4,16 @@
   <div class="card">
     <div class="info">
       <div class="fellow-img-container">
-        <img
-          src="../assets/img/fellows/{{item.img}}"
-          alt="fellow-image"
-          class="fellow-img"
-        />
+        <div class="spinner">
+          <div class="inner-spin"></div>
+          <span class="fullie">
+            <img
+              src="../assets/img/fellows/{{item.img}}"
+              alt="fellow-image"
+              class="fellow-img"
+            />
+          </span>
+        </div>
       </div>
       <p class="fellow-name">{{ item.name }}</p>
       <p class="fellow-location">{{ item.location }}</p>
@@ -16,22 +21,18 @@
         <h5>{{item.email}}</h5>
       </div>
       <div class="social-links fellow-links">
-        <a href={{item.linkedIn}} class="fellow-link" target="_blank"
+        <a href="{{item.linkedIn}}" class="fellow-link" target="_blank"
           ><i class="fab fa-linkedin fa-lg"></i
         ></a>
-        <a
-          href={{item.twitter}}
-          class="fellow-link" target="_blank"
+        <a href="{{item.twitter}}" class="fellow-link" target="_blank"
           ><i class="fab fa-twitter fa-lg"></i
         ></a>
-        <a
-          href={{item.github}}
-          class="fellow-link" target="_blank"
-          ><i class="fab fa-github fa-lg"></i></a>
-        <a
-          href={{item.resume}}
-          class="fellow-link" target="_blank"
-          ><i class="fas fa-file fa-lg"></i></a>
+        <a href="{{item.github}}" class="fellow-link" target="_blank"
+          ><i class="fab fa-github fa-lg"></i
+        ></a>
+        <a href="{{item.resume}}" class="fellow-link" target="_blank"
+          ><i class="fas fa-file fa-lg"></i
+        ></a>
       </div>
     </div>
   </div>
