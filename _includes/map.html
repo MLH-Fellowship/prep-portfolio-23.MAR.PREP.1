@@ -1,0 +1,6 @@
+<h2 id="projects">Locations of Fellows</h2>
+<div class="card-container map-card-container">
+    <div class="card map-card" id="map-card">
+        <img src="https://maps.googleapis.com/maps/api/staticmap?size=600x400&maptype=roadmap&key=AIzaSyCFwOrG7_5TDJ1--cYZ2YiMZyxILDOYe34&{% for fellow in site.data.fellows %}&markers=label:{{ fellow.name }}|{{ fellow.location | replace: ' ', '+' }}{% endfor %}">
+    </div>
+</div>
