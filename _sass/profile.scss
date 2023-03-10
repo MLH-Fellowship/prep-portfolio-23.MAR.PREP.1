@@ -1,26 +1,23 @@
 .profile {
-    background-color: #133667 !important;
+    // image source - https://unsplash.com/photos/CpHNKNRwXps
+    background-image: url('https://images.unsplash.com/photo-1446776877081-d282a0f896e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2672&q=80') !important;
+    background-size: cover;
+    background-position: center;
     text-align: center;
-    height: 320px;
+    height: 400px;
     margin-bottom: 50px;
     h1 {
         font-size: 50px;
         font-weight: 700;
-        color: white;
+        color: white;  
     }
-    
-    img {
-        border-radius: 50%;
-        max-width: 100%;
-        max-height: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        display: inline;        
-        padding: 20px;
-    }
-    
-    .profile-picture {
-        margin-bottom: 30px;
-        height: 200px;
+    .title {
+        padding-top: 300px;
     }
 }
+
+.profile:hover {
+    // image source - https://unsplash.com/photos/XJdx4eDmW2Y
+    background-image: url('https://images.unsplash.com/photo-1601071680397-997582203ae1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2787&q=80') !important;
+}
+

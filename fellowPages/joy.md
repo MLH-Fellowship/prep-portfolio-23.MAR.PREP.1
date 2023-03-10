@@ -5,5 +5,5 @@ university: University of Mumbai
 programming-languages: JavaScript, Python, Go
 description: xxxx
 interests: Chess, Badminton
-img: logo.jpg
+img: joy.png
 ---
