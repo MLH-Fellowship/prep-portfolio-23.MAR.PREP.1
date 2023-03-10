@@ -1,9 +1,9 @@
 ---
 title: Sana Goyal
 layout: fellow
-university: xx
-programming-languages: xx
-description: xxxx
-interests: xx
+university: University of North Carolina at Chapel Hill
+programming-languages: Python, R, Swift
+description: Data Scientist
+interests: Working out, music, fashion,dancing
 img: sana.JPG
 ---

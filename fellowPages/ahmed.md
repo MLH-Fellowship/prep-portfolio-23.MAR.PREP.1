@@ -1,9 +1,9 @@
 ---
 title: Ahmed Mohamed
 layout: fellow
-university: xx
-programming-languages: xx
+university: University of Toronto
+programming-languages: Javascript, Python, C/C++
 description: xxxx
-interests: xx
+interests: Music, Basketball, Fashion
 img: ahmed.jpg
 ---

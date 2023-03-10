@@ -1,9 +1,9 @@
 ---
 title: Samyuktha Gopalsamy
 layout: fellow
-university: xx
-programming-languages: xx
+university: Rutgers University, New Brunswick
+programming-languages: Python, Java
 description: xxxx
-interests: xx
+interests: Swimming, Badminton, Bharatanatyam
 img: samyuktha.jpg
 ---

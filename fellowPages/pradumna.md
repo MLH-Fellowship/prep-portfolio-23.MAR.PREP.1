@@ -1,9 +1,9 @@
 ---
 title: Pradumna Gautam
 layout: fellow
-university: xx
-programming-languages: xx
-description: xxxx
-interests: xx
+university: Anna University
+programming-languages: Python, R, SQL, C++
+description: Research Scholar@RIT, Cybersecurity, AI, NLP
+interests: Geopolitics, Defence, Travelling
 img: pradumna.jpg
 ---
