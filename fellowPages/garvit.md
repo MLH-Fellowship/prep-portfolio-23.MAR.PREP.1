@@ -1,9 +1,9 @@
 ---
 title: Garvit Varshney
 layout: fellow
-university: xx
-programming-languages: xx
+university: Aligarh Muslim University, AMU
+programming-languages: Javascript, Java
 description: xxxx
-interests: xx
+interests: Finance, Singing, Chess
 img: garvit.jpg
 ---

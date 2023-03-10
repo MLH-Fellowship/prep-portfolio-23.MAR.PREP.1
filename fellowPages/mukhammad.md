@@ -1,9 +1,9 @@
 ---
 title: Mukhammad Sadiddinov
 layout: fellow
-university: xx
-programming-languages: xx
+university: Murray State University
+programming-languages: Python, Kotlin
 description: xxxx
-interests: xx
+interests: technology, science, cooking and walking, cat
 img: mukhammad.png
 ---
