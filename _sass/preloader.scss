@@ -1,5 +1,5 @@
 .loading-screen {
-    background-color: rgba(19, 54, 103, 0.9);
+    background-color: rgba(19, 54, 103, 0.85);
     position: fixed;
     top: 0;
     left: 0;
@@ -25,11 +25,13 @@
     }
   
     .loading-spinner {
-      width: 50px;
-      height: 50px;
+      width: 45px;
+      height: 45px;
       border-radius: 50%;
-      border: 4px solid #fff;
-      animation: spin 1s ease-in-out infinite;
+      border: 1px dashed white;
+      border-image: repeating-linear-gradient(45deg, white, white 10px, transparent 0, transparent 20px);
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+      animation: spin 1.5s ease-in-out infinite;
       margin-left: 20px;
       flex-shrink: 0;
   
@@ -42,7 +44,7 @@
         bottom: 0;
         border-radius: 50%;
         background: linear-gradient(45deg, #0057b7, #ffd700);
-        animation: pulse 2s ease-in-out infinite;
+        animation: pulse 1.5s ease-in-out infinite;
       }
     }
   
