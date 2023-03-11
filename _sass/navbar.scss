@@ -44,6 +44,11 @@
   }
 }
 
+.menu-icon {
+  cursor: pointer;
+  display: none;
+}
+
 .right {
   display: flex;
   justify-content: center;
@@ -75,6 +80,49 @@
   background-color: #0e2c57;
 }
 
+@media screen and (max-width: 768px) {
+  .right {
+    display: none;
+  }
+
+  .menu-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+  }
+  .menu-icon i {
+    font-size: 2rem;
+    color: white;
+  }
+
+  .menu-icon.menu-active i:before {
+    content: "\f00d";
+  }
+
+  .show-nav {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    background-color: #133667;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+
+  .show-menu a {
+    margin: 1rem 1rem;
+    font-size: 1.2rem;
+    line-height: 10px;
+  }
+  .theme-toggler-btn {
+    font-size:20px;
+    padding: 5px 9px;
+  }
+}
+
 //dark theme
 
 body.dark {
@@ -103,8 +151,10 @@ body.dark {
   background-color: #2069cb;
   border-radius: 10px;
   border: none;
-  font-size: 25px;
-  padding: 8px 12px;
+  font-size: 20px;
+  padding: 5px 12px;
+  margin: 5px 0px;
+  margin-left: 5px;
   transition-duration: 0.2s;
 }
 
@@ -118,5 +168,5 @@ body.dark {
 }
 
 .fa-moon {
-  color: rgb(116, 192, 252);
+  color: rgb(246, 251, 255);
 }

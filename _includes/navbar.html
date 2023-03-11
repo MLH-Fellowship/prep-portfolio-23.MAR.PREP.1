@@ -1,37 +1,46 @@
 <header class="nav-bar">
-    <div class="nav-content">
-        <div class="left">
-            <a href="{{ '/' | relative_url }}">
-              <div class="nav-logo">
-                <img src="./assets/img/mlh-prep.png" />
-              </div>
-            </a>
-          </div>
-      
-          <div class="right">
-            <a href="#">Home</a>
-            <a href="#description">Team</a>
-            <a href="#projects">Projects</a>
-            <a href="#blogs">Blogs</a>
-            <button class="theme-toggler-btn" id="theme-toggler" type="button">
-              <i id="theme-icon" class="fa"></i>
-            </button>
-          </div>
+  <div class="nav-content">
+    <div class="left">
+      <a href="{{ '/' | relative_url }}">
+        <div class="nav-logo">
+          <img src="./assets/img/mlh-prep.png" />
         </div>
+      </a>
+    </div>
+    <div class="menu-icon">
+      <i class="fa fa-bars"></i>
+    </div>
+    <div class="right">
+      <a href="#">Home</a>
+      <a href="#description">Team</a>
+      <a href="#projects">Projects</a>
+      <a href="#blogs">Blogs</a>
+    </div>
+    <button class="theme-toggler-btn" id="theme-toggler" type="button">
+      <i id="theme-icon" class="fa"></i>
+    </button>
+  </div>
 </header>
 <script>
+  const menuIcon = document.querySelector(".menu-icon");
+  const menu = document.querySelector(".right");
+
+  menuIcon.addEventListener("click", () => {
+    menu.classList.toggle("show-nav");
+    menuIcon.classList.toggle('menu-active');
+  });
+
   const themeToggler = document.getElementById("theme-toggler");
   themeToggler.addEventListener("click", () => {
     const currTheme = localStorage.getItem("darkTheme");
     document.getElementById("theme-icon").classList.toggle("fa-moon");
     document.getElementById("theme-icon").classList.toggle("fa-sun");
-    if (currTheme){
-        localStorage.removeItem("darkTheme");
-        document.body.classList.remove("dark");
+    if (currTheme) {
+      localStorage.removeItem("darkTheme");
+      document.body.classList.remove("dark");
     } else {
-        localStorage.setItem("darkTheme", "on");
-        document.body.classList.add("dark");
+      localStorage.setItem("darkTheme", "on");
+      document.body.classList.add("dark");
     }
-
   });
 </script>
