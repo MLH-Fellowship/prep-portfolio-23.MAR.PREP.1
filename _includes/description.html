@@ -1,10 +1,40 @@
 <h2 id="description">Meet the Pod</h2>
-<div class="card-container">
+<div class="card-container fellow-card">
   {% for item in site.data.fellows %}
   <div class="card">
     <div class="info">
-      <p class="title">{{ item.name }}</p>
-      <p class="location">{{ item.location }}</p>
+      <div class="fellow-img-container">
+        <div class="spinner">
+          <div class="inner-spin">
+          </div>
+            <span class="fullie">
+              <img
+                src="../assets/img/fellows/{{item.img}}"
+                alt="fellow-image"
+                class="fellow-img"
+              />
+            </span>
+        </div>
+      </div>
+      <p class="fellow-name">{{ item.name }}</p>
+      <p class="fellow-location">{{ item.location }}</p>
+      <div class="email-container">
+        <h5>{{item.email}}</h5>
+      </div>
+      <div class="social-links fellow-links">
+        <a href="{{item.linkedIn}}" class="fellow-link" target="_blank"
+          ><i class="fab fa-linkedin fa-lg"></i
+        ></a>
+        <a href="{{item.twitter}}" class="fellow-link" target="_blank"
+          ><i class="fab fa-twitter fa-lg"></i
+        ></a>
+        <a href="{{item.github}}" class="fellow-link" target="_blank"
+          ><i class="fab fa-github fa-lg"></i
+        ></a>
+        <a href="{{item.resume}}" class="fellow-link" target="_blank"
+          ><i class="fas fa-file fa-lg"></i
+        ></a>
+      </div>
     </div>
   </div>
   {% endfor %}

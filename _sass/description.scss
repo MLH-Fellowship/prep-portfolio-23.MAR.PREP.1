@@ -1,0 +1,114 @@
+.fellow-card {
+  div.card {
+    margin: 0 auto;
+    margin-bottom: 2.6rem;
+    width: 80%;
+    transition: all 0.25s ease-in-out;
+    // border-bottom: 5px solid #133667;
+
+    &:hover {
+      -webkit-box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.75);
+      box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.75);
+
+      div.spinner {
+        opacity: 0.95;
+        div.inner-spin {
+          transform: rotate(180deg);
+        }
+      }
+    }
+  }
+  div.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    div.fellow-img-container {
+      width: 9rem;
+      height: 9rem;
+      border-radius: 50%;
+      margin-bottom: 0.8rem;
+
+      div.spinner {
+        width: 9rem;
+        height: 9rem;
+        position: relative;
+      }
+
+      div.inner-spin {
+        position: absolute;
+        width: 9rem;
+        height: 9rem;
+        border: 6px solid #1953a1;
+        border-right-color: #f9ba29;
+        border-bottom-color: #f9ba29;
+        border-radius: 50%;
+        transition: transform 1s;
+        transform: translateZ(0);
+      }
+
+      span.fullie {
+        display: block;
+        margin: 0 auto;
+
+        width: 9rem;
+        height: 9rem;
+        background: #fff;
+        border-radius: 7rem;
+        z-index: 2;
+        top: 50%;
+        left: 50%;
+        margin-top: -((8 - 1) / 2);
+        margin-left: -((8 - 1) / 2);
+
+        img.fellow-img {
+          object-fit: cover;
+          width: 9rem;
+          height: 9rem;
+          border-radius: 8rem;
+          opacity: 1;
+          transition: all 1s;
+        }
+      }
+    }
+
+    p.fellow-name {
+      font-weight: 700;
+      font-size: 1.25rem;
+      color: #133667;
+      line-height: 1;
+      margin: 0;
+    }
+
+    p.fellow-location {
+      font-weight: 600;
+      font-size: 0.9rem;
+      color: #133667;
+      margin-bottom: 0.5rem;
+    }
+
+    div.email-container {
+      background-color: #133667;
+      padding: 10px 14px;
+      border-radius: 10px;
+      cursor: pointer;
+
+      h5 {
+        font-size: 0.8rem;
+        font-weight: 600;
+        margin: 0;
+        line-height: 1;
+        color: white;
+      }
+    }
+
+    div.fellow-links {
+      a.fellow-link {
+        color: #133667;
+      }
+    }
+  }
+}
