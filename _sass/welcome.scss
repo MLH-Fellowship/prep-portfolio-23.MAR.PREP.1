@@ -1,0 +1,25 @@
+.welcome-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-title{
+    margin: 1%;
+    font-weight: 700;
+    font-size: large;
+}
+
+.welcome-text{
+    width: 80%;
+    text-align: center;
+}
+
+.racoon{
+    color: brown;
+}
+
+.racoon:hover{
+    color: brown
+}
