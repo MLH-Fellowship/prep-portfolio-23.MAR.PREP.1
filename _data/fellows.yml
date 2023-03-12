@@ -71,15 +71,17 @@
 - name: Koichi Minami
   img: koichi.jpeg
   location: New York, USA
+  page: minami
   email: koichidminami@gmail.com
   linkedIn: https://www.linkedin.com/in/koichi-minami/
   twitter: https://twitter.com
   github: https://github.com/KoichiMin
   resume: https://media.licdn.com/dms/document/C562DAQHaRYMXFpkrRg/profile-treasury-document-pdf-analyzed/0/1677950090815?e=1679529600&v=beta&t=BefT1PffZYP4r_hlRm5mMC1sr4WTf2farqMIFrJLMdM
-  page: koichi
 
 
-- name: Leila Gazizzova
+
+
+- name: Leila Gazizova
   img: leila.PNG
   location: Vancouver, Canada
   email: leila.gazizova2003@gmail.com
@@ -127,7 +129,7 @@
   twitter: https://twitter.com
   github: https://github.com/sgoyal5
   resume: https://drive.google.com/file/d/1I5WvGGnaKyz28YXvU2wG0287Y5tBUCMh/view?usp=sharing
-  paga: sana
+  page: sana
 
 - name: Soumya Sagar
   img: soumya.jpeg
