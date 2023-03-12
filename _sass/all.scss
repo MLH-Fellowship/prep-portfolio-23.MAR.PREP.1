@@ -9,6 +9,7 @@
 @import 'blogs';
 @import 'welcome';
 @import 'footer';
+@import 'map';
 @import 'table';
 
 .card-container {
@@ -137,3 +138,9 @@ a {
   font-size: medium;
   font-weight: 400;
 }
+
+#map-card{
+  width: 100%;
+  height: 450px;
+  border: 1px solid #b6b4b570;
+  border-radius: 15px;}
