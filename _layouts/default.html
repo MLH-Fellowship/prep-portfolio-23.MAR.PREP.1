@@ -7,5 +7,11 @@
 <body>
     {{ content }}
 </body>
-
+<script>
+    if (localStorage.getItem("darkTheme")) {
+      document.body.classList.add("dark");
+    } else {
+      document.body.classList.remove("dark");
+    }
+</script>
 </html>
