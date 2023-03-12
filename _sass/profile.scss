@@ -6,13 +6,15 @@
     text-align: center;
     height: 400px;
     margin-bottom: 50px;
+
     h1 {
         font-size: 50px;
         font-weight: 700;
         color: white;  
     }
+    
     .title {
-        padding-top: 300px;
+        padding-top: 270px;
     }
 }
 
@@ -20,4 +22,3 @@
     // image source - https://unsplash.com/photos/XJdx4eDmW2Y
     background-image: url('https://images.unsplash.com/photo-1601071680397-997582203ae1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2787&q=80') !important;
 }
-

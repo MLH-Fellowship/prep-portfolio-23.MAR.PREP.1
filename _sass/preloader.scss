@@ -1,0 +1,85 @@
+.loading-screen {
+    background-color: rgba(19, 54, 103, 0.85);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    animation: fadeOut 3s ease-in-out forwards;
+  
+    .text {
+      font-size: 30px;
+      color: white;  
+    }
+  
+    .loading-text {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      animation: fadeOut 2.8s ease-in-out forwards;
+    }
+  
+    .loading-spinner {
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      border: 1px dashed white;
+      border-image: repeating-linear-gradient(45deg, white, white 10px, transparent 0, transparent 20px);
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+      animation: spin 1.5s ease-in-out infinite;
+      margin-left: 20px;
+      flex-shrink: 0;
+  
+      &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        border-radius: 50%;
+        background: linear-gradient(45deg, #0057b7, #ffd700);
+        animation: pulse 1.5s ease-in-out infinite;
+      }
+    }
+  
+    @keyframes spin {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  
+    @keyframes pulse {
+      0% {
+        transform: scale(0.8);
+        opacity: 0.7;
+      }
+      50% {
+        transform: scale(1.2);
+        opacity: 1;
+      }
+      100% {
+        transform: scale(0.8);
+        opacity: 0.7;
+      }
+    }
+  
+    @keyframes fadeOut {
+      0% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+        visibility: hidden;
+      }
+    }
+  }
+  
