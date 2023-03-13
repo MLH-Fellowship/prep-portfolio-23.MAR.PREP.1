@@ -5,17 +5,36 @@
 {% include header.html %}
 
 <body>
+    {% include preloader.html %}
+    
     {% include navbar.html %}
 
     {% include profile.html %}
+    
+    {% include welcome.html %}
     
     {% include description.html %}
     
     {% include projects.html %}
 
     {% include blogs.html %}
+  
+    {% include table.html %}
+    
+    {% include map.html %}
     
     {% include footer.html %}
 </body>
+<script src="/assets/js/stats.js"></script>
+
+<script>
+    if (localStorage.getItem("darkTheme")) {
+      document.body.classList.add("dark");
+      document.getElementById("theme-icon").classList.toggle("fa-sun");
+    } else {
+      document.body.classList.remove("dark");
+      document.getElementById("theme-icon").classList.toggle("fa-moon");
+    }
+</script>
 
 </html>

@@ -1,0 +1,31 @@
+#map {
+    height: 450px;
+    width: 90%;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  .leaflet-icon {
+    border-radius: 50%;
+  }
+
+.popup-content {
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .popup-image {
+    display: block;
+    max-width: 100%;
+    border-radius: 50%;
+    margin: 10px auto;
+  }
+  
+
+  .popup-text {
+    max-width: 200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
