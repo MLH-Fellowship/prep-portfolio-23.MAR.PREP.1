@@ -1,0 +1,93 @@
+.fellow-container {
+    margin-top: 40px;
+    font-size: larger;
+    .fellow-img-cont {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        span.fullie {
+            display: block;
+            margin: 0 auto;
+    
+            width: 290px;
+            height: 290px;
+            background: #fff;
+            border-radius: 50%;
+            z-index: 2;
+            top: 50%;
+            left: 50%;
+            margin-top: -((8 - 1) / 2);
+            margin-left: -((8 - 1) / 2);
+    
+            .fellow-img {
+              object-fit: cover;
+              border-radius: 50%;
+              opacity: 1;
+              transition: all 1s;
+              width: 290px;
+                height: 290px;
+            }
+          }
+        .spinner {
+            width: 290px;
+            height: 290px;
+            position: relative;
+
+            &:hover{
+                opacity: 0.95;
+                div.inner-spin {
+                    transform: rotate(180deg);
+                }
+            }
+        }
+        .inner-spin {
+            position: absolute;
+            width: 290px;
+            height: 290px;
+            border: 6px solid #1953a1;
+            border-right-color: #f9ba29;
+            border-bottom-color: #f9ba29;
+            border-radius: 50%;
+            transition: transform 1s;
+            transform: translateZ(0);
+          }
+    }
+    .fellow-data{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .fellow-container {
+        flex-direction: column;
+        align-items: center;
+        .fellow-img-cont {
+            span.fullie {
+                width: 90vw;
+                height: 90vw;
+                .fellow-img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .spinner {
+                width: 90vw;
+                height: 90vw;
+            }
+            .inner-spin {
+                width: 90vw;
+                height: 90vw;
+            }
+            margin-bottom: 20px;
+        }
+            .fellow-info-container {
+                max-width: initial;
+            }
+        }
+}

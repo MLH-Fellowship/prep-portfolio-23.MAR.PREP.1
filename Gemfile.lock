@@ -9,6 +9,7 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.7)
+    eventmachine (1.2.7-x64-mingw32)
     ffi (1.15.3)
     ffi (1.15.3-x64-mingw32)
     forwardable-extended (2.6.0)
@@ -69,8 +70,9 @@ GEM
 
 PLATFORMS
   ruby
-  x64-mingw-ucrt
   x64-mingw32
+  x64-unknown
+  x64-unknown
 
 DEPENDENCIES
   jekyll (~> 4.1.1)
@@ -80,4 +82,4 @@ DEPENDENCIES
   webrick (~> 1.7)
 
 BUNDLED WITH
-   2.2.3
+   2.4.8

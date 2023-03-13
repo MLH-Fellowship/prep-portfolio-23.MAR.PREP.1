@@ -16,7 +16,7 @@
             </span>
         </div>
       </div>
-      <p class="fellow-name">{{ item.name }}</p>
+      <p class="fellow-name"><a href="/fellowPages/{{ item.page }}">{{ item.name }}</a></p>
       <p class="fellow-location">{{ item.location }}</p>
       <div class="email-container">
         <h5>{{item.email}}</h5>
@@ -39,3 +39,4 @@
   </div>
   {% endfor %}
 </div>
+

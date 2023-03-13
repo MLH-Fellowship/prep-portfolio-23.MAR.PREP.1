@@ -6,6 +6,7 @@
   twitter: https://twitter.com
   github: https://github.com/Ahmed-Labs
   resume:
+  page: ahmed
 
 - name: Arya Gupta
   img: arya.jpeg
@@ -15,6 +16,7 @@
   twitter: https://twitter.com
   github: https://github.com/Arya-Gupta
   resume: https://drive.google.com/file/d/1k-9GYnSCfDLxnVrXAWCRVBMzVh0RBi-J/view?usp=sharing
+  page: arya
 
 - name: Garvit Varshney
   img: garvit.jpg
@@ -24,6 +26,7 @@
   twitter: https://twitter.com/garv18twt
   github: https://github.com/Garvit1809
   resume: https://drive.google.com/file/d/1zI3SWHfGyRCbqbzavDj49kFP_ds-drBC/view?usp=sharing
+  page: garvit
 
 - name: Ikeh chukwuka
   img: ikeh.jpeg
@@ -33,15 +36,7 @@
   twitter: https://twitter.com/IkehAkinyemi
   github: https://github.com/IkehAkinyemi
   resume: https://docs.google.com/document/d/1-_BOAbj88vG1KiijWeNh9ui13mJNtDV-/edit?usp=sharing&ouid=116386775423089943683&rtpof=true&sd=true
-
-- name: Jenna L.
-  img: jenna.jpg
-  location: Burnaby, Canada
-  email: hariboengr@gmail.com
-  linkedIn: https://www.linkedin.com/in/jenna-l-69b249206/
-  twitter: https://twitter.com
-  github: https://github.com/swimmingHaribo?tab=repositories
-  resume:
+  page: chukwuka
 
 - name: Joy Almeida
   img: joy.png
@@ -51,6 +46,17 @@
   twitter: https://twitter.com/_j0sal
   github: https://github.com/J0SAL
   resume: https://drive.google.com/file/d/1H-DR-DiFxH5830lzgW-D_qd-3GP0VJRq/view?usp=sharing
+  page: joy
+
+- name: Jenna L.
+  img: jenna.jpg
+  location: Burnabuy, Canada
+  email: hariboengr@gmail.com
+  linkedIn: https://www.linkedin.com/in/jenna-l-69b249206/
+  twitter: https://twitter.com
+  github: https://github.com/swimmingHaribo?tab=repositories
+  resume:
+  page: jenna
 
 - name: Ketan Saraf
   img: ketan.jpeg
@@ -60,17 +66,19 @@
   twitter: https://twitter.com/Keshraf_
   github: https://www.github.com/keshraf
   resume: https://drive.google.com/file/d/1kdduaUYuvs7TKQYf0SZe5EgVm0NpVcVG/view?usp=sharing
+  page: ketan
 
 - name: Koichi Minami
   img: koichi.jpeg
   location: New York, USA
+  page: minami
   email: koichidminami@gmail.com
   linkedIn: https://www.linkedin.com/in/koichi-minami/
   twitter: https://twitter.com
   github: https://github.com/KoichiMin
   resume: https://media.licdn.com/dms/document/C562DAQHaRYMXFpkrRg/profile-treasury-document-pdf-analyzed/0/1677950090815?e=1679529600&v=beta&t=BefT1PffZYP4r_hlRm5mMC1sr4WTf2farqMIFrJLMdM
 
-- name: Leila Gazizzova
+- name: Leila Gazizova
   img: leila.PNG
   location: Vancouver, Canada
   email: leila.gazizova2003@gmail.com
@@ -78,6 +86,7 @@
   twitter: https://twitter.com
   github: https://github.com/2leila5
   resume:
+  page: leila
 
 - name: Mukhammad Sadriddinov
   img: mukhammad.png
@@ -87,6 +96,7 @@
   twitter: https://twitter.com
   github: https://github.com/mukhsadr
   resume:
+  page: mukhammad
 
 - name: Pradumna Gautam
   img: pradumna.jpg
@@ -96,6 +106,7 @@
   twitter: https://twitter.com
   github: https://github.com/pradumna-gautam
   resume: https://drive.google.com/file/d/1tE_VBxtug6AAI5JvDhRsG6JwUam3g74B/view
+  page: pradumna
 
 - name: Samyuktha Gopalsamy
   img: samyuktha.jpg
@@ -105,6 +116,7 @@
   twitter: https://twitter.com/sam_yuk_tha
   github: https://github.com/samyukthagopalsamy
   resume: https://drive.google.com/file/d/1Nw3ZC_tfb7FqPcyXt_2LGV01ti8n3f_q/view?usp=sharing
+  page: samyuktha
 
 - name: Sana Goyal
   img: sana.JPG
@@ -114,6 +126,7 @@
   twitter: https://twitter.com
   github: https://github.com/sgoyal5
   resume: https://drive.google.com/file/d/1I5WvGGnaKyz28YXvU2wG0287Y5tBUCMh/view?usp=sharing
+  page: sana
 
 - name: Soumya Sagar
   img: soumya.jpeg
@@ -123,6 +136,7 @@
   twitter: https://twitter.com/SySagar2
   github: https://github.com/SySagar
   resume: https://drive.google.com/file/d/1Bx4PVhM_12O2ZPLGABg64RErU4UX1E2c/view?usp=sharing
+  page: soumya
 
 - name: Tynen Wang
   img: tynen.jpg
@@ -132,3 +146,4 @@
   twitter: https://twitter.com
   github: https://github.com/TynenW
   resume:
+  page: tynen
